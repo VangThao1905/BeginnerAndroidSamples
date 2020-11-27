@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chapters">
+        <item>App Fundamentals</item>
+        <item>User Interface</item>
+        <item>View Controls</item>
+        <item>User Interactions</item>
+        <item>User Flows</item>
+        <item>Networking</item>
+        <item>Advanced Views</item>
+        <item>Preferences</item>
+        <item>Content Providers</item>
+        <item>Publishing</item>
+    </string-array>
+</resources>
