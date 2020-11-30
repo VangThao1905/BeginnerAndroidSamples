@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="vangthao.app.introandroiddemo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,14 +11,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IntroAndroidDemo">
-        <activity android:name=".DemoSelector"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".SmartImageDownloadActivity"></activity>
+        <activity android:name=".AsyncTaskPerformActivity" />
+        <activity android:name=".BasicImageDownoadActivity" />
+        <activity android:name=".SimpleReturnResultActivity" />
+        <activity android:name=".IntentWithResultActivity" />
+        <activity android:name=".ImplicitIntentsActivity" />
+        <activity android:name=".ActionBarMenuActivity" />
+        <activity android:name=".SimpleBundleDemoActivity" />
+        <activity android:name=".ExplicitIntentActivity" />
+        <activity android:name=".ListViewClicksActivity" />
+        <activity android:name=".BasicClickHandlersActivity" />
+        <activity android:name=".SimpleListViewActivity" />
+        <activity android:name=".LayoutGravityActivity" />
+        <activity android:name=".LinnearLayoutDemoActivity" />
+        <activity android:name=".BasicViewsActivity" />
+        <activity android:name=".BasicTextViewActivity" />
+        <activity android:name=".ViewAttributesActivity" />
+        <activity android:name=".DemoSelector">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
