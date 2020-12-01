@@ -10,8 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.IntroAndroidDemo">
-        <activity android:name=".SmartImageDownloadActivity"></activity>
+        android:theme="@style/Theme.IntroAndroidDemo"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PersitsSettingsActivity"></activity>
+        <activity android:name=".GridViewDemoActivity" />
+        <activity android:name=".ProgressBarActivity" />
+        <activity android:name=".TimePickerDemoActivity" />
+        <activity android:name=".SpinnerWithToastActivity" />
+        <activity android:name=".ToastFormInputActivity" />
+        <activity android:name=".SmartImageDownloadActivity" />
         <activity android:name=".AsyncTaskPerformActivity" />
         <activity android:name=".BasicImageDownoadActivity" />
         <activity android:name=".SimpleReturnResultActivity" />

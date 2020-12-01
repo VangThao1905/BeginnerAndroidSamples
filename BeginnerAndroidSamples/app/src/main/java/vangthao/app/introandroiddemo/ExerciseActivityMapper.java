@@ -1,7 +1,6 @@
 package vangthao.app.introandroiddemo;
 
 import android.app.Activity;
-import android.widget.ExpandableListView;
 
 import java.util.HashMap;
 
@@ -49,6 +48,16 @@ public class ExerciseActivityMapper {
         //Chapter 6: Networking
         exerciseClassMap.put("chap6ex1", BasicImageDownoadActivity.class);
         exerciseClassMap.put("chap6ex2", AsyncTaskPerformActivity.class);
+
+        //Chapter 7: Advanced Views
+        exerciseClassMap.put("chap7ex1", ToastFormInputActivity.class);
+        exerciseClassMap.put("chap7ex2", SpinnerWithToastActivity.class);
+        exerciseClassMap.put("chap7ex3", TimePickerDemoActivity.class);
+        exerciseClassMap.put("chap7ex4", ProgressBarActivity.class);
+        exerciseClassMap.put("chap7ex5", GridViewDemoActivity.class);
+
+        //Chapter 8: Preferences
+        exerciseClassMap.put("chap8ex1",PersitsSettingsActivity.class);
 
 
     }
